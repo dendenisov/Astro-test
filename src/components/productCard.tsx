@@ -15,6 +15,10 @@ return (
     <h2 className='lext-lg'>{product.title}</h2>
     <p className='font-bold'>{product.price}</p>
 
+    <a href={`/product/${product.id}`}>Open product</a>
+
+    <br />
+
     <button onClick={toggle} className='border py-4 px-4 bg-yellow-400 text-white'>
         Toggle description
     </button>
